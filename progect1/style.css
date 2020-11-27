@@ -1,0 +1,38 @@
+*{
+    margin: 0;/* внешний отступ*/
+}
+/*@font-face {
+    font-family: Raleway;
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
+}*/
+html {
+    font-family: 'Raleway', sans-serif;/*шрифт*/
+    height: 100%;/*высота*/
+    font-size: 18px;
+}
+body{
+    height: 100%;
+    background-color: rgb(221, 221, 221);/*цвет фона*/
+}
+main{
+    background-color: white;
+    width: 70%; /*ширина*/
+    margin: 10px auto; /*позволяет отцентрировать БЛОЧНЫЙ элемент*/
+    padding: 50px 0; /*внутренний отступ*/
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+}
+h1{
+    width: 80%;
+    margin: auto;
+}
+div {
+    width: 80%;
+    margin: 35px auto;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block; /*придаем блочную структуру*/
+    margin: auto;
+    margin-top: 20px;
+}
